@@ -248,5 +248,8 @@ This project is for educational purposes. Please respect OpenAI's usage policies
 5. Create a Pull Request
 
 ---
+## 🙋‍♂️ Author
+
+- Gunalan A [@Gunalan183](https://github.com/Gunalan183)
 
 **Happy Coding! 🚀**
