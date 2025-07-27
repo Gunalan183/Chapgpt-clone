@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply m-0 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .chat-message {
+    @apply p-4 border-b border-gray-200 dark:border-gray-700;
+  }
+  
+  .user-message {
+    @apply bg-white dark:bg-gray-800;
+  }
+  
+  .assistant-message {
+    @apply bg-gray-50 dark:bg-gray-700;
+  }
+  
+  .typing-indicator {
+    @apply flex items-center space-x-1;
+  }
+  
+  .typing-dot {
+    @apply w-2 h-2 bg-gray-400 rounded-full animate-pulse;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
